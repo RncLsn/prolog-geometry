@@ -1,4 +1,3 @@
-
 % If X, Y, Z are points of a straight line and Y lies between X and Z, then Y lies also between Z and X.
 liesBetween(X, Y, Z) :-
 	order(X, Y), order(Y, Z),
@@ -13,6 +12,7 @@ liesBetween(X, Y, Z) :-
 % TODO
 % If A and C are two points of a straight line, then there exists at least one point B
 % lying between A and C and at least one point D so situated that C lies between A and D.
+
 
 % TODO
 % Of any three points situated on a straight line, there is always one and only one which lies between the other two.
